@@ -8,3 +8,7 @@ export const AuthContext = createContext<{
     setAuthStatus: () => { },
 
 })
+
+export const AuthProvider = AuthContext.Provider;
+
+export default AuthContext;
