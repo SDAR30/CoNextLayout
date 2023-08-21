@@ -17,6 +17,10 @@ const menuItems = [
         name: "Contact",
         href: "#",
     },
+    {
+        name: "Education",
+        href: "#",
+    },
 ];
 
 export default function Header() {
